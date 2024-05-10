@@ -9,13 +9,13 @@ Na primeira geração, os computadores eram construídos com válvulas eletrôni
 ## ENIAC (1946)
 O ENIAC (Electronic Numerical Integrator and Computer) foi o primeiro computador eletrônico de grande escala. Ele foi desenvolvido durante a Segunda Guerra Mundial para calcular trajetórias balísticas. Sua construção foi motivada pela necessidade de automatizar e acelerar os cálculos usados na pesquisa militar.
 
-![ENIAC](link_da_imagem_eniac)
+![Eniac](https://github.com/Dev-magno/html-developer/blob/main/assets/img_eniac/enica.png)
 
 
 ## Colossus (1943)
 O Colossus foi desenvolvido pelos britânicos durante a Segunda Guerra Mundial para quebrar códigos alemães. Era um computador eletrônico digital, projetado especificamente para essa tarefa. Sua construção foi motivada pela urgência em decifrar mensagens inimigas.
 
-![ENIAC](link_da_imagem_eniac)
+![Colossus](https://github.com/Dev-magno/html-developer/blob/main/assets/img_colossus/colossus.png)
 
 
 ---
@@ -27,13 +27,13 @@ A segunda geração de computadores surgiu com o advento dos transistores, subst
 ## IBM 704 (1954)
 A IBM 704 foi um dos primeiros computadores comerciais da segunda geração. Foi projetado para fins científicos e de engenharia, como previsão meteorológica e simulação de testes nucleares. Sua construção foi motivada pela demanda crescente por capacidade de processamento em áreas além da guerra.
 
-![ENIAC](link_da_imagem_eniac)
+![IBM 704](https://github.com/Dev-magno/html-developer/blob/main/assets/img_ibm_704/ibm_704.png)
 
 
 ## UNIVAC II (1958)
 O UNIVAC II foi um dos primeiros computadores amplamente utilizados para fins comerciais e administrativos. Ele foi projetado para processamento de dados em larga escala, como folha de pagamento e contabilidade. Sua construção foi motivada pela necessidade das empresas de lidar com grandes volumes de informações de maneira mais eficiente.
 
-![ENIAC](link_da_imagem_eniac)
+![UNIVAC II](https://github.com/Dev-magno/html-developer/blob/main/assets/img_inivac%20ii/univac%20ii.png)
 
 
 ---
@@ -45,13 +45,13 @@ Na terceira geração, os computadores começaram a usar circuitos integrados, q
 ## IBM System/360 (1964)
 O IBM System/360 foi uma família de computadores lançada pela IBM. Foi projetado para ser compatível em termos de software e periféricos, oferecendo diferentes modelos para atender às necessidades de diferentes usuários. Sua construção foi motivada pela necessidade de padronização e escalabilidade na computação empresarial.
 
-![ENIAC](link_da_imagem_eniac)
+![IBM System/360](https://github.com/Dev-magno/html-developer/blob/main/assets/img_imb_System360/ibm_system-360.png)
 
 
 ## DEC PDP-11 (1970)
 O PDP-11 foi um dos primeiros minicomputadores da terceira geração. Foi projetado para ser flexível e expansível, adequado para uma ampla gama de aplicações científicas e comerciais. Sua construção foi motivada pela demanda por computadores menores e mais acessíveis para laboratórios de pesquisa e empresas.
 
-![ENIAC](link_da_imagem_eniac)
+![DEC PDP-11](https://github.com/Dev-magno/html-developer/blob/main/assets/img_dec_%20pdp_11/dec_pdp_11.png)
 
 
 ---
@@ -63,13 +63,13 @@ Na quarta geração, os computadores começaram a usar microprocessadores, o que
 ## Intel 4004 (1971)
 O Intel 4004 foi o primeiro microprocessador comercialmente disponível. Ele foi projetado para calculadoras, mas seu lançamento marcou o início da era dos microprocessadores e dos computadores pessoais. Sua construção foi motivada pela demanda por dispositivos eletrônicos mais compactos e eficientes.
 
-![ENIAC](link_da_imagem_eniac)
+![Intel 4004](https://github.com/Dev-magno/html-developer/blob/main/assets/img_Intel_4004/intel_4004.png)
 
 
 ## Apple Macintosh (1984)
 O Apple Macintosh foi um dos primeiros computadores pessoais a apresentar uma interface gráfica de usuário (GUI). Foi projetado para ser fácil de usar, com o objetivo de tornar os computadores mais acessíveis ao público em geral. Sua construção foi motivada pela visão de Steve Jobs de um computador "para as massas".
 
-![ENIAC](link_da_imagem_eniac)
+![Apple Macintosh](https://github.com/Dev-magno/html-developer/blob/main/assets/img_apple_macintosh/apple_macintosh.png)
 
 
 ---
@@ -81,13 +81,13 @@ Na quinta geração, os computadores estão focados em inteligência artificial,
 ## IBM Watson (2010)
 O IBM Watson é um sistema de inteligência artificial conhecido por vencer humanos no programa de perguntas e respostas Jeopardy!. Ele foi projetado para entender linguagem natural e responder a perguntas de maneira semelhante a um humano. Sua construção foi motivada pela busca por sistemas de computador que possam realizar tarefas cognitivas complexas.
 
-![ENIAC](link_da_imagem_eniac)
+![IBM Watson](https://github.com/Dev-magno/html-developer/blob/main/assets/img_ibm_%20watson/ibm_watson(2010).png)
 
 
 ## Google Quantum AI (2014)
 O Google Quantum AI é um programa de pesquisa focado no desenvolvimento de computadores quânticos. Esses computadores têm o potencial de resolver problemas complexos de forma muito mais eficiente do que os computadores clássicos. Sua construção foi motivada pela necessidade de lidar com problemas que estão além das capacidades dos computadores tradicionais.
 
-![ENIAC](link_da_imagem_eniac)
+![Google Quantum AI ](https://github.com/Dev-magno/html-developer/blob/main/assets/img_google_quantum_AI/Google%20Quantum%20AI.png)
 
 # Surgimento da Internet
 A internet é uma rede global de computadores interconectados que revolucionou a comunicação, o compartilhamento de informações e o acesso ao conhecimento em todo o mundo.
