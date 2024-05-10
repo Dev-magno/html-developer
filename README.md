@@ -33,7 +33,7 @@ A IBM 704 foi um dos primeiros computadores comerciais da segunda geração. Foi
 ## UNIVAC II (1958)
 O UNIVAC II foi um dos primeiros computadores amplamente utilizados para fins comerciais e administrativos. Ele foi projetado para processamento de dados em larga escala, como folha de pagamento e contabilidade. Sua construção foi motivada pela necessidade das empresas de lidar com grandes volumes de informações de maneira mais eficiente.
 
-![UNIVAC II](https://github.com/Dev-magno/html-developer/blob/main/assets/img_inivac%20ii/univac%20ii.png)
+![UNIVAC II](https://github.com/Dev-magno/html-developer/blob/main/assets/img_univac%20ii/univac%20ii.png)
 
 
 ---
