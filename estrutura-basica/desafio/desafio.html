@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumo</title>
+</head>
+<body>
+    <h1>INTRODUÇÃO AO HTML</h1>
+    <hr>
+    <h2>Índice</h2>
+    <ul>
+        <li><a href="">Extrutura HTML</a></li>
+        <li><a href="">Tags e seu funcionamento</a></li>
+        <li><a href="">Atributos das Tags</a></li>
+        <li><a href="">Atributos Expecíficos</a></li>
+        <li><a href="">Tetos</a></li>
+        <li><a href="">Listas</a></li>
+    </ul>
+   
+   
+   
+   
+   
+
+
+    <h2>Extrutura HTML</h2>
+    <p>Tudo que estiver entre as tags &lt;html&gt;&lt;/html&gt; é um documento html. o html consiste em duas partes:
+        1) cabeçalho ou head representado pelas tags &lt;head&gt;&lt;/head&gt;. Tudo que é colocado entre essas tags 
+        será carregado antes de ser exibido para o usuário.
+        2) Corpo ou body que é representado pela tag &lt;body&gt;&lt;/body&gt;.Tudo que estiver aqui irão aparecer visualmente para o usuário. 
+        No head tem uma tag chamada TITLE que é o título da página a ser usada &lt;title&gt;&lt;/title&gt;. Esse título aparece na aba do navegador.
+    </p>
+    <img src="img/img.png.png" alt="Print do exemplo" title="Um exemplo do título que aparece na aba do navegador">
+
+    <p>
+        O copor, &lt;body&gt;&lt;/body&gt;, é o local onde todo o site será desenvolvido. Todas as tags para a sua confecção
+        devem ser colocadas entre essas tags que por sua vez se encontram no documento html. É preciso atenção para não tentar,
+        por exemplo, colocar a tag head dentro do body, o que constituíria uma falha na estrutura do HTML. 
+    </p>
+    <h2>Tags e seu funcionamento</h2>
+    <P>
+       A tag &lt;I&gt;&lt;/I&gt;. Tudo que estiver entre essa tag o navegador interpreta como itálico. O a palava <i>HTML</i>
+       ela está entre a tag &lt;I&gt;&lt;/I&gt; que a deixou em itálico. 
+       A tag &lt;strong&gt;&lt;/strong&gt; faz com que o texto fique em negrito. Novamente veja a palavra <strong>HTML</strong>,
+       note que ela está em negrito porque foi colocada entre as tags &lt;I&gt;&lt;/I&gt;.
+    </P>
+    <p>
+       A gora se você desejar colocar a palavra HTML em negrito e itálico, desta forma: <strong><i>HTML</i></strong> basta 
+       colocar a tag <i></i> dentro da tag <strong></strong> e o texto entre as tag &lt;I&gt;&lt;/I&gt; e o resultado esperado
+       é que ela fique em negrito e itálico como no exemplo acima.
+       É importante frisar que há muitas outras tags. Você poderá fazer uso de sites específicos para aprender sobre elas.
+    </p>
+    <h2>Atributos das Tags</h2>
+    <p>
+       Atributos são propriedades que uma tag pode ter. Existem atributos que são mais globais e tem outros que são expecíficas de cada tag.
+
+       Exemplos: 
+       Na tag &lt;strong id = "titulo"&lt;/strong&gt; pode te um atributo chamado id serve para identificar no JavaScript qual elemento você
+       quer mexer. Significa que o id é um identificador.
+
+       Há também o style que é usado pelo CSS para formatar diretamento o elemento. Essa fortamação seria por exemplo: colocar outra fonte,
+       colocar uma determinada cor, alinhar o texto etc.
+       Outro atributo é o Class usado também CSS para padronização do conteúdo do site.
+    </p>
+    <h2>Atributos Expecíficos</h2>
+    <p>
+      o input, &lt;input&gt;, tem um atributo chamado type &lt;input type = ""&gt; que é do tipo do tipo específico dele mesmo. Nesse atributo
+      pode determinar que o tipo do input sera um campo de texto. Fica assim: &lt;input type = "text"&gt;. Nesse inpute somente texto será aceito.
+      Ou pode ser do tipo número, dessa forma: &lt;input type = "number"&gt;. Nesse input só será aceito o tipo número. 
+      A tag img a qual serve para coloca uma imagem  no site, tem um dos atirbutos o src que é o caminho percorrido para recuperar a imagem.
+      O exemplo de como fazer é assim: &lt;img src = ""&gt;. Entre as aspas colocase o link de onde a imagem se encontra e ela será mostrada
+      ao usuário. Pode usar outros atibutos como o alt com uma mensagem. 
+    </p>
+    <p>
+      Caso a imagem não apareça a mensagem informa do que se trata E, pode usar também o atritubo title que coloca-se uma mensagem que aparece quando passa o mouse na imagem. E o atributo widht que 
+      delimita a largura da imagem.A marcação fica dessa maneira: &lt;img width = "" src = "" alt = "" title = ""&gt;.
+    </p>
+    <h2>Tetos</h2>
+    <p>
+      As tags &lt;h1&gt; a &lt;h6&gt; -> são títulos no HTML. Eles vão de distinguindo em Título &lt;h1&gt;&lt;/h1&gt; e subtítulos
+      &lt;h2&gt;&lt;/h2&gt; em sequência. Se você vai fazer um arquivo de um livro, por exmeplo, onde há título e sutítulos essa
+      tag é adequada para ser usada. 
+      Uma das tags bastante usada é tag &lt;p&gt; a &lt;/p&gt; que serve para escrever parágrafos no documento HTML. Ela será usada
+      em todas as páginas que forem escritas usando essa linguagem de marcação de texto.
+    </p>
+    <p>
+     Temos também a tag &lt;blockquote&gt;&lt;/blockquote&gt;. Ela é usada para fazer uma citação. Por exemplo, se você estiver fazendo 
+     uma página para disponibilizar um conteúdo e quizer citar um estudioso, então usa-se essa tag. Vejamos um exemplo: 
+     <blockquote>
+        "A Internet é baseada em HTML, o que é realmente uma coisa muito simples. É uma linguagem de marcação muito simples.
+         Não é uma linguagem de programação, é uma linguagem de marcação. Isso é importante. As pessoas que não a entendem 
+         podem pensar que está fazendo mais do que realmente está." - Douglas Crockford
+     </blockquote>
+     Veja que o texto acima ficou visualmente diferente dos demais, porque está dentro da tag &lt;blockquote&gt;&lt;/blockquote&gt;.
+    </p>
+    <p>
+     Temos mais uma tag a ser vista dentre mmuitas outras, é a tag <super></super> que serve para colocar um texto (como asterico) na linha 
+     de cima do texto de outra tag ou uma nota de rodapé. Nesse sentido, ela é muito útil. 
+    </p>
+   
+    <h2>Listas</h2>
+    <p>
+      Em HTML, as listas são usadas para organizar e apresentar informações de forma estruturada. 
+      Existem dois tipos principais de listas: listas ordenadas e listas não ordenadas.
+      As listas ordenadas são feitas com a tag &lt;ol&gt;&lt;/ol&gt;. <br>
+      São usadas para criar uma lista de itens ordenados numericamente ou alfabeticamente. <br>
+      Os itens são automaticamente numerados ou marcados com um formato específico, como números, letras ou romanos. <br>
+      São ideais para sequências lógicas de itens ou instruções passo a passo. <br>
+      
+      Aqui está um exeplo de lista ordenada:
+     <ol>
+      <li>Maçã</li>
+      <li>Maracujá</li>
+      <li>Uva</li>
+    </ol>
+    
+    As listas não ordenadas são feitas com a tag &lt;ul&gt;&lt;/ul&gt;. São usadas para criar uma lista de itens sem uma ordem específica. 
+    Os itens são marcados com bullets padrão, mas o estilo pode ser alterado com CSS. São úteis para listar itens que não têm uma ordem sequencial 
+    ou para destacar uma série de pontos importantes. <br>
+    Veja um exemplo de lista não ordenada:
+    <ul>
+      <li>Rio de Janeiro</li>
+      <li>São Paulo</li>
+      <li>Brasília</li>
+    </ul>
+    </p>
+    <p>
+      Ambos os tipos de listas &lt;ol&gt; e &lt;ul&gt;são construídos usando tags de lista &lt;li&gt;&lt;/li&gt;, que representam cada item da lista. Essas listas podem ser 
+      aninhadas, ou seja, uma lista pode conter outra lista 
+      omo um de seus itens.
+    </p>
+      <ul>
+        <li>Frutas:
+          <ul>
+            <li>Maçã</li>
+            <li>Banana</li>
+            <li>Uva</li>
+          </ul>
+        </li>
+        <li>Cidades do Brasil:
+          <ul>
+            <li>Rio de Janeiro</li>
+            <li>São Paulo</li>
+            <li>Brasília</li>
+          </ul>
+        </li>
+      </ul>
+
+      <p>
+        Neste exemplo, a lista principal é uma lista não ordenada &lt;ul&gt; que contém dois itens. Cada item da lista principal contém uma lista aninhada de itens, uma lista de 
+        frutas e uma lista de cidades do Brasil, respectivamente, dentro de elementos &lt;ul&gt; aninhados. Cada uma dessas listas aninhadas é composta por elementos &lt;li&gt; 
+        que representam os itens da lista.
+        Elas são uteis também para fazer menu e que geralmente é usado em páginas HTML.
+      </p>
+      <h2>Referências</h2>
+      <ul>
+        <li><a href="https://www.w3schools.com/css/" target="_blank">w3schools</a></li>
+        <li><a href="https://css-tricks.com/almanac/" target="_blank">css-tricks</a></li>
+        <li><a href="http://www.flexboxdefense.com/" target="_blank">flexboxdefense</a></li>
+        <li><a href="https://web.dio.me/play" target="_blank">Dio</a></li>
+        <li><a href="https://www.youtube.com/@cfbcursos/featured" target="_blank">CFBcursos</a></li>
+     </ul>
+</body>
+</html>

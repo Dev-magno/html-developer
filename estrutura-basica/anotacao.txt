@@ -1,0 +1,52 @@
+EXTRUTURA HTML
+Tudo que estiver entre as tags <html></html> é um documento html. o html consiste em duas partes:
+1) cabeça ou head (<head></head>). São coisas que ele vai carregar antes de exibir para o usuário.
+2) o corpo ou body (<body></body>).Tudo que estiver aqui são coisas que irão aparecer para o usuário 
+No head tem uma tag chamada TITLE que é o título da página a ser usada (<title></title) 
+
+TAGS E SEU FUNCIONAMENTO
+Tag <i></i> Tudo que estiver entre essa tag o navegador interpreta como itálico
+Tag <strong></strong> o texto ficará em negrito.
+Para colocar em negrito e itálico basta colocar a tag <i></i> dentro da tag <strong></strong> e o texto entre as tag que o deixam em itálico.
+
+obs: note que se abre e fecha a tag. Exemplo: <i> tag aberta </i> tag de fechamento.
+Existem tags que não necessitam ser fechadas como <input/>; <br>; <hr> etc.
+
+ATRIBUTOS DAS TAGS
+São propriedades que uma tag pode ter. Existem atributos que são mais globais e tem outros que são expecíficas de cada tag.
+
+Exemplos: 
+Na tag <strong id = "titulo"></strong> pode te um atributo chamado id serve para identificar no JavaScript qual elemento você quer mexer.
+É um identificador.
+
+Há também o style que é usado pelo CSS para formatar diretamento o elemento. 
+Outro é o Class usado também CSS para padronização.
+
+ATRIBUTOS EXPECÍFICOS
+input tem um atributo chamado type do tipo específico. 
+img que se coloca imagem  no site e seu atributo é o src que é o caminho percorrido para recuperar a imagem.
+Nessa tag pode se usar o widht que é a largura.
+
+TEXTOS
+Tags <h1></h1> a <h6></h6> -> são títulos
+tag <p></p> -> usado para escrever parágrafos
+tag <blockquete></blockquete> -> usado para fazer uma citação
+A tag <super></super> colocar um texto (como asterico) na linha de cima do texto ou uma nota de rodapé
+
+LISTAS
+Existem duas listas principais: Listar ordenadas e não ordenadas
+<ol></ol> -> é uma lista ordenada
+<ul></ul> -> lista não ordenada
+
+LINKS
+Link é uma âncora para direciona você para outro lugar representado pela tag <a href = "link do site" title = "um texto informati" target = "_blanck - abre em outra aba"> Aqui o texto</a>
+
+links para apronfundar-se no estudo:
+https://www.w3schools.com/css/
+https://css-tricks.com/almanac/
+http://www.flexboxdefense.com/
+https://flukeout.github.io/
+https://cssgridgarden.com/
+https://cssbattle.dev/
+https://flexboxfroggy.com/
+https://gridbyexample.com/
