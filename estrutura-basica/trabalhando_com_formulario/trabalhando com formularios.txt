@@ -1,0 +1,59 @@
+1) TAG FORM
+O formulário é uma comunicação Client-Server. Havendo um formulário numa determinada página,
+ao ser clicado ele envia uma informação para um servidor, que por sua vez vai consumir
+essa infromação e pode ou não gravar em um banco de dados.
+
+Um banco de dados é uma aplicação que fica no mesmo servidor ou em outro cuja responsabilidade
+é armazenar essas informações. 
+
+METODOS:
+GET ---> Esté método envia o formulário pelo barra de navegação.
+POST ---> Este método post envia uma requisição via requeisição pelo corpo do bory
+TARGET ---> Envia o formulário por outra aba do navegar
+AUTOCOMPLETE ---> Se colocar on ele autocompleta o campo do formulário, já o of não completa.
+O navegador não armazena nada dele.
+
+2) INPUT E SEUS TIPOS
+Input text ---> É um campo texto (geralmente se coloca um label)
+Input Number ---> É um campo específicamente para números
+Button ---> Tem o atributo Value que se colar o "enviar". No entanto, quando se trata de semantica
+se coloca <Button>Enviar<Button> que funciona melhor.
+Range ---> cria um scroul
+Color ---> Abre uma caixa de cor onde pode-se selecionar a cor que desejar e será defenido
+Email ---> É uma campo especificamente de email onde se você não colocar o endereço que não Tem@ o navegador não deixar ser enviado.
+Url ---> Da mesma que o email, o navegador não deixa enviar outra coisa que não seja uma url -- isto é, colocar o http.
+Date --> Campo para inserir data. Ele pega o indioma definido no navegador para colocar um calendário para selecionar a data.
+Week --> Vai definir a semana do ano. Ao clicar ele abre um calendário para que você faça isso. 
+obs: Ele não funciona no Firefox.
+Month --> Serve para selecionar o mês. Também não funciona no Firefox.
+Checkbox --> É usado como um valor boolenao. Uma caixinha de seleção de sim ou não.
+Radio --> Só pode selecionar um. Diferente do Checkbox.
+Hidden --> Fica invisível para o usuario mas quando clicado ele envia a informção.
+File --> É uma campo para enviar um arquivo. Ele tem um atributo cahamdo "multiple" que possibilita o envio de vário arquivos.
+Mas o padrão é não aceitar vários arquivos.
+Search --> É um campo texto para busca. Não funciona no Firefox
+
+3) CHECKBOX E RADIO BUTTON
+disabled --> Torna a opção desabilitada
+Nos Checkbox é necessário colocar no atributo "name" o seu valor seguido de colchetes[] para que seja interpretado como uma lista no beckend
+No input radio no atributo "name" colocar um valor para que seja disponibilizado apenas uma opção.
+
+4) BUTTON E SEUS TIPOS
+Quando se cria um Button com type button é simplesmente um botão clicável. Só faz alguma coisa se usar JavaScript nele.
+Button type reset é basicamente para limpar os campos do form que ele está dentro.
+Button type submit vai basicamente enviar o formulário
+O evento onsubmite="" deve ficar no form para validar os campos do formulário, a fim de evitar apenas algumas partes ou 
+algo idevido como apenas um nome.
+
+5) SELECT E SEUS TIPOS
+Select é uma caixa de selecções que contém opções a serem escolhidas.
+option --> são as opções disponibilizados dentro do select box
+Selected --> pode trazer pre-selecionado uma determinada opção
+o parâmetro multiple possibilita selecionar multiplas opções. Ele é colocado dentro da teag selec -> <select multiple></select>
+
+6) TEXTARE
+É um capo texto onde se colca n informações. Ela serve para colocar um texto com um maior número de linhas.
+Isso já vem por padrão.
+Atributos
+Rows ---> Define o número de linhas permitidas.
+Cols --> Serve para determinar o número de colunas
