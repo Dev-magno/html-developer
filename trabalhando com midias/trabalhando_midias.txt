@@ -1,0 +1,22 @@
+O QUE SÃO TAGS DE MÍDIAS
+É tudo que é relacionado a som e imagem
+
+TAG IMG
+Imprime na tela uma imagem a partir de um link colocado no atributo src. Pode ser uma imagem local
+que é mais recomendável ou uma imagem online.
+imagem svg não perde a resolução. E é mais indicado usar a tag <svg>
+
+
+TAG AUDIO
+
+
+
+TAG VIDEO
+
+
+
+TAG TRACK
+
+
+
+TAG IFRAME
