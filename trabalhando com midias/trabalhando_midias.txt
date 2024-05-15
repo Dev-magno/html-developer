@@ -12,16 +12,17 @@ Esta tag é exclusivamente para audio, apenas som sem imagem.
 Ela tem uma tag filha que é a <source> onde se coloca o caminho do audio "src".
 Há um atrubuto chamado constrols que coloca o play que já vem como padrão os controles do audio
 como tempo de duração.
-
 pode usar um <input type = "range" min = "0" max = "100"> para aumentar ou diminuir o som do audio
 
-
 TAG VIDEO
-
-
+É bastante semelhante à tag de audio. Vem também o source como tag filha para colocar o caminho do vídeo.
+É interessante que dentre uma lista como: mp4, mbl, webm o primeiro que o navegador tiver suporte, faz rodar.
 
 TAG TRACK
-
-
+Ela fica dentro da tag de video. É nada mais que legenda. Podendo definir legendo e através do JavaScript colocar capítulos.
+Há três itens que precisa definir: src; kind - são descrições ou legendas do video.
+e srclang="en" o en é porque está em inguês. Pode colocar mais de uma legenda. o default - torna a legenda escolhida padrão.
 
 TAG IFRAME
+É uma evolução do embed e traz conteúdo externos para seu site. Ou seja, páginas externas serão incorporadas. 
+Vai até a página como You Tube ou Google maps, em compartilhar clica em icorporar um mapa e colocar o iframe no na página html.
