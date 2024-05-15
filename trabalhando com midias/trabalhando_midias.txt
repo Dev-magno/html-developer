@@ -8,7 +8,12 @@ imagem svg não perde a resolução. E é mais indicado usar a tag <svg>
 
 
 TAG AUDIO
+Esta tag é exclusivamente para audio, apenas som sem imagem.
+Ela tem uma tag filha que é a <source> onde se coloca o caminho do audio "src".
+Há um atrubuto chamado constrols que coloca o play que já vem como padrão os controles do audio
+como tempo de duração.
 
+pode usar um <input type = "range" min = "0" max = "100"> para aumentar ou diminuir o som do audio
 
 
 TAG VIDEO
