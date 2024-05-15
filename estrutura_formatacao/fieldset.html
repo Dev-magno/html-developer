@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        h1 {
+            margin-left: 12%;
+        }
+        .row {
+            margin: 5px;
+        }
+
+        label {
+            width: 100px;
+            text-align: right;
+            display: inline-block;
+            padding-right: 10px;
+        }
+
+        fieldset {
+            margin: 15px;
+            border-radius: 5px;
+            border-color: lightgray;
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulário de Cadastro</h1>
+
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        <div class="row">
+            <label>Nome: </label><input type="text">
+            <label>Email: </label><input type="email">
+        </div>
+
+        <div class="row">
+            <label>Profissão: </label><input type="text">
+            <label>Empresa </label><input type="text">
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Endereço</legend>
+        <div class="row">
+            <label>Endereço: </label><input type="text">
+            <label>Número: </label><input type="number">
+        </div>
+
+        <div class="row">
+            <label>Bairro: </label><input type="text">
+        </div>
+
+        <div class="row">
+            <label>Cidade/UF: </label><input type="text">
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Contato</legend>
+        <div class="row">
+            <label>Celular: </label><input type="tel">
+            <label>WhatsApp: </label><input type="url">
+        </div>
+
+        <div class="row">
+            <label>Linkedin: </label><input type="url">
+            <label>Github: </label><input type="url">
+        </div>
+    </fieldset>
+
+    <div class="row">
+        <a href=""><button>Limpar</button></a>
+    </div>
+
+    <div class="row">
+        <button>Enviar Formulário</button>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,4 @@
+Navegadores modernos suportam em torno de 140 nomes de cores
+sites com nomes de cores possíveis que se podem aplicar no html: 
+http://w3schools.com/tags/ref_colornames.asp
+https://colinkeany.com/blend/

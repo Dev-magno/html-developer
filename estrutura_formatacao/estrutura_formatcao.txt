@@ -1,0 +1,27 @@
+FORMATAÇÕES DE TEXTO
+A tag <i> --> deixa o texto itálico
+A tag <b> --> deixa o texto em negrito
+A tag <u> --> é de underline - coloca-se um traço embaixo da palavra
+A tag <mark> --> é de marcar texto
+A tag <sup> --> é para colocar um asterisco em determinada palavra(acima). Serve para fortar operações matemáticas
+A tag <sub> --> é para colocar um asterisco em determinada palavra(abaixo). Serve para fortar operações matemáticas
+A tag <bloquote> --> serve para colocar no texto delimitando o treço para explicação ou citação de algo
+A tag <bloquote> --> serve para colocar no texto delimitando o treço para explicação ou citação de algo
+A tag <strong> --> deixa o texto negrito, mas é semântico. Dando mais enfase ao trecho do texto
+A tag <font> --> precisa de atributos para fazer alguma coisa
+
+ESTRUTURA DA PÁGINA HTML
+A tag <div> serve para  estruturar o site. É uma tag do tipo display: block que ocupada
+a horintal inteira da tela.
+A tag <span> não ocupa o espaço inteiro da tela. Serve para formatar especificamente um palavra
+uma letra ou um ponto com o css.
+
+FIELDSET
+Ela é mais estrutura e possui uma aparência específica.
+
+EMBED
+Serve para carregar uma mídia ou plugin externo em um trecho do texto.
+Em lugar do embed usa-se a tag <video> e seu atriburo <sorce src="">
+
+IFRAMES
+Permite abrir uma janela na sua págino com o conteúdo de outra página.
