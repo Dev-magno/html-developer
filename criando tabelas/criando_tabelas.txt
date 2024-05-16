@@ -1,0 +1,25 @@
+--> TABELAS
+É uma forma de apresentar os dados de maneira tabular que é composto por counas
+que fica na vertical e as linhas que ficam na horizontal. 
+O encontro entre colunas e linhas chama-se céluas.
+É usado no html quando vai apresentar dados em formato tabular.
+
+TAG TABLE
+Criar uma tabela, mas precisa de outras tags para esse fim.
+
+TAG TR
+Serve para colocar as linhas em uma tabela
+
+--> TAG TD E TH
+A tag th serve para colocar um cabelho na tabelha e formata-o destando- dentre as outras linhas e colunas.
+Há uma regra: nas tabelas os nomes devem ser o mais curto possível. Usa-se o atributo tytle na tag th para
+para colocar o nome mais comprido. Por exemplo: <th title="Nome comlpleto">Nome</th>,dessa forma. Quando colocar
+o mouse emcima do nome, vai aparecer a frase: 'nome completo' descrita no atributo title.
+
+--> TAG TBODY, THEAD E TFOOT
+TBODY --> É o corpo da tabela
+THEAD --> É o cabelho da tabela
+TFOOT --> É o rodapé da tabela
+
+--> ESTIZANDO TABELAS
+
