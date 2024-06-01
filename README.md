@@ -132,3 +132,7 @@ A World Wide Web Consortium (W3C) foi fundada em 1994 para desenvolver padrões 
 Empresas como a Netscape Communications (Netscape Navigator) e a Microsoft (Internet Explorer) lançaram navegadores populares.
 
 A internet passou por uma incrível evolução desde seus primórdios até se tornar uma rede global. A internet passou por uma incrível evolução desde seus primórdios até se tornar uma rede global
+
+# HTML SEMÂNTICO
+
+![Google Quantum AI ](https://github.com/Dev-magno/html-developer/blob/main/assets/img_google_quantum_AI/Google%20Quantum%20AI.png)

@@ -1,0 +1,36 @@
+1 - SEMÂNTICA
+É o estudo e o significado das palavras que fazem sentido entre si. Exemplo de HMTL SEMÂNTICO
+
+<body>
+    <header>...</header>
+    <main>...</main>
+    <footer>..</footer>
+</body>
+
+ Lembrar que o html também é lido por robos.
+
+ 2 - WEB SCRAPING
+ Éum sistema que entra num site, lê as informações e grava isso em algum lugar. É também chamado de robô.
+ O googleBot faz a indexação das páginas web dentro das buscas do google. 
+ Quanto mais semântico o site for, melhor para ser indexado no banco do dados do google. E quando melhor o idenxado o site tiver, mais precisa
+ será a busca.
+
+ 3 MAIN, HEADER, FOOTER
+ Main é a tag principal da página e só tem um por página. E não pode ser filha
+ do header, article e footer.
+
+ 3 - ASIDE, SECTION E NAV
+ Aside pode ser usado, por exemplo, para anùnicos. É separado do assunto principal. São muitas vezes usadas como barras laterais.
+ A section representa uma sessão genérica.
+ Nav contem elementos de navegação, como os menus.
+
+ 4 - ARTICLE, BLOQUOTE, Q
+ Quando se coloca o um article dentro do outro há uma relação semântica com o pai.
+ O bloquote pode ser colocado dentro da tag article quando, em artigo, for fazer uma citação.
+ Dentro do bloquote você pode colocar cite, assim: <bloquote cite="link"></bloquote> para fazer o link da citação específica.
+ O Q também é uma citação, mas menor que a feita pelo bloquote.
+
+ 5 FIGURE, FIGCAPTION, PICTURE
+Figure contém uma imagem explicativa dentro do texto.
+Figcaption é uma tag auxiliar da figure para colocar uma descrição da imagem.
+No Picture pode colocar multiplas fontes para a mesma imagem. Troca essa fonte de acordo com a tela do usuário.
