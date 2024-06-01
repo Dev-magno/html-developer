@@ -133,6 +133,101 @@ Empresas como a Netscape Communications (Netscape Navigator) e a Microsoft (Inte
 
 A internet passou por uma incrível evolução desde seus primórdios até se tornar uma rede global. A internet passou por uma incrível evolução desde seus primórdios até se tornar uma rede global
 
-# HTML SEMÂNTICO
+# HTML5 SEMÂNTICO
+![Layout](https://github.com/Dev-magno/html-developer/blob/main/assets/html-semantico/semantico.png)
+# Tags Semânticas do HTML5
 
-![Google Quantum AI ](https://github.com/Dev-magno/html-developer/blob/main/assets/img_google_quantum_AI/Google%20Quantum%20AI.png)
+## `<header>`
+O elemento `<header>` representa um grupo de suporte ou de cabeçalho introdutório em uma seção ou página. Geralmente contém um ou mais elementos de heading (`<h1> - <h6>`, `<hgroup>`, ou outro elemento de heading), logotipos, informações de autoria e informações de navegação.
+
+## `<nav>`
+O elemento `<nav>` representa uma seção de uma página que contém links de navegação, geralmente incluindo links para outras páginas ou para partes da mesma página.
+
+## `<main>`
+O elemento `<main>` representa o conteúdo principal de um documento HTML. O conteúdo principal consiste no conteúdo diretamente relacionado ou expandido sobre o tópico central do documento, ou a funcionalidade central de um aplicativo.
+
+## `<article>`
+O elemento `<article>` representa uma composição independente em um documento, página, aplicativo ou site, que é destinada a ser distribuída de forma reutilizável ou independente, por exemplo, em sindicação. Pode ser uma postagem de blog, um comentário de fórum, um artigo de jornal ou outro tipo de conteúdo independente.
+
+## `<section>`
+O elemento `<section>` representa uma seção genérica de um documento ou aplicativo. Uma seção, no contexto do HTML, é uma parte temática de conteúdo, geralmente com um título, que poderia ser potencialmente isolada do restante do conteúdo e, portanto, possivelmente utilizado e navegado independentemente.
+
+## `<aside>`
+O elemento `<aside>` representa uma seção de uma página que consiste em conteúdo que está tangencialmente relacionado ao conteúdo circundante e que poderia ser considerado separado dele. O conteúdo do `<aside>` deve ser capaz de existir independentemente do conteúdo principal da página.
+
+## `<footer>`
+O elemento `<footer>` representa um rodapé para seu contexto mais próximo. Um rodapé tipicamente contém informações sobre o autor do documento, direitos autorais ou links para documentos relacionados.
+
+## `<figure>` e `<figcaption>`
+O elemento `<figure>` representa algum conteúdo autônomo, geralmente uma imagem, uma ilustração, um diagrama, um fragmento de código ou uma peça de música, que é acompanhado de uma legenda, referida como `<figcaption>`.
+
+## `<details>` e `<summary>`
+O elemento `<details>` representa um widget que pode ser alternado para exibir ou ocultar seu conteúdo. O elemento `<summary>` dentro de `<details>` representa um título ou uma legenda para o conteúdo em `<details>`.
+
+## `<mark>`
+O elemento `<mark>` representa um trecho de texto que está marcado ou destacado devido à sua relevância ou importância em relação ao restante do texto circundante.
+
+## `<time>`
+O elemento `<time>` representa um valor de data e/ou hora, possivelmente incluindo um calendário e um relógio incorporados, representando uma data e/ou hora específica ou um intervalo específico de tempo.
+
+## `<progress>`
+O elemento `<progress>` representa o progresso de uma tarefa, ou um valor de conclusão de uma tarefa, dentro de um aplicativo.
+
+## `<meter>`
+O elemento `<meter>` representa uma medida escalar dentro de um intervalo conhecido ou uma fração de um valor total.
+
+# Exemplo de Página HTML5 com Tags Semânticas
+
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Página HTML5</title>
+</head>
+<body>
+
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Sobre</h2>
+            <p>Este é um exemplo de página HTML5 utilizando tags semânticas.</p>
+        </section>
+
+        <section>
+            <h2>Conteúdo Principal</h2>
+            <article>
+                <h3>Artigo 1</h3>
+                <p>Conteúdo do primeiro artigo.</p>
+            </article>
+
+            <article>
+                <h3>Artigo 2</h3>
+                <p>Conteúdo do segundo artigo.</p>
+            </article>
+        </section>
+
+        <aside>
+            <h2>Anúncios</h2>
+            <p>Anúncios ou conteúdo relacionado podem ser colocados aqui.</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
+
