@@ -1,0 +1,22 @@
+1) Datalist 
+Ele serve para buscar uma lista já pré-selecionada
+
+2) Code, kbd e pre
+O kbd pode ser utilizado para mostrar no html comandos do teclado.
+O code serve para colocar uma ou mais linha de comando, como por exemplo, do CSS.
+Quando o código tem mais de uma linha, usa-se o code com o pre. Semanticamente se torna muito melhor.
+
+Fontes monospace define que a largura dele é igual para todos os caracteres.
+
+3) Datails e summary
+Tag Datails fala basicamente sobre detalhes.
+summary serve para definir um texto
+
+4) Meter e progress
+O meter é um medidor
+o progress serve para saber o progresso das coisas
+
+5) Mark e JavaScript
+
+6) Canvas
+O canvas no html serve para colocar gráfico e fazer manipulação no JavaScript

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resursos Especiais</title>
+    <style>
+        kbd {
+            border: solid 1px black;
+        }
+
+        pre {
+            background-color: #f1f1f1; 
+        }
+
+        pre > code {
+            color: red;
+        }
+
+        pre > p {
+            font-style: italic;
+            color: grey;
+            padding-left: 30px;
+        }
+
+        code {
+            background-color: #f1f1f1;
+            color: blue;
+        }
+
+       
+    </style>
+</head>
+<body>
+    <input list="browsers" type="search" name="search" />
+    <datalist id="browsers">
+        <option value="">Selecione um navegador</option>
+        <option>Google Chrome</option>
+        <option>Mozila Firefox</option>
+        <option>Micorssoft Edige</option>
+        <option>Safari</option>
+        <option>Opera</option>
+    </datalist>
+
+    <p>Para copiar esta informação precione <kbd>CTRL</kbd> + <kbd>C</kbd></p>
+    <p>Para trocar o fundo de um elemento, utilize o comando <code>backgtound-color</code></p>
+    <p>Comando completo para alterar cor de fundo: </p>
+   
+    <pre>
+        <p>//Neste momento você aplica dessa forma o código</p>
+        <code>
+            code {
+                background-color: #f1f1f1;
+                color: red;
+            }
+        </code>
+    </pre>
+
+    <details>
+        <summary>Como troco a cor de fundo de um elemento no HTML?</summary>
+        <p>Para executar esta ação, utilize o comando <code>background-color</code> no CSS</p>
+    </details>
+
+    <meter value="10"></meter>
+    <progress id="progress" max="100" min="0" value="50"></progress>
+
+    <script>
+        var progress = document.getElementById('progress')
+        const interval = setInterval(() => {
+            progress.value += 10
+            if (progress.value <= 100){
+                alert('Carregamento realizado com sucesso')
+                clearInterval(interval)
+            }
+        }, 1000)
+       
+    </script>
+</body>
+</html>
